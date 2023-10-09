@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "freebie-reminder",
+    "name": "Freebie Reminder",
     "slug": "freebie-reminder",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.guuri11.freebiereminder"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76bdca07-40c5-45d0-9b69-93a13dd7db81"
+      }
     }
   }
 }
